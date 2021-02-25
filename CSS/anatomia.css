@@ -1,0 +1,22 @@
+/*
+#ANATOMIA
+
+```CSS
+*/
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+/*
+
+*Selector ---> h1
+*Declaration ---> {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+*Properties ---> color:; font-size:; background:;
+*Property Value ---> blue; font-size; gray.
+
+*/
