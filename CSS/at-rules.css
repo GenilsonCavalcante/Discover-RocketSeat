@@ -1,0 +1,25 @@
+/*
+
+*Está relacionado ao comportamento do CSS
+*Começa com o sinal de `@` sequido do identificador e valor.
+
+## Exemplos comuns:
+
+-@import     (Incluir um CSS externo)
+-@media      (Regras condicionais para dispositivos)
+-@font-face  (Fontes externas)
+-@Keyframes  (Animation)
+
+```CSS
+@import "https://local.com/style.css";
+
+@media (min-width: 500px) {
+    //rules here
+}
+
+@keyframes nameofanimation {
+    //rules here
+}
+```
+
+*/

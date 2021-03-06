@@ -1,0 +1,17 @@
+/*
+## Vendor Prefixes
+
+Permita que browsers adicione `features` a fim de colocar em uso alguma nocidade que vemos no CSS.
+
+## Exemplo
+
+```CSS
+p {
+    -webkit-background-clip: text;    (Chrome, Safari, iOS e Android)
+    -moz-background-clip: text;       (Mozilla (Firefox))
+    -ms-background-clip: text;        (Internet Explorer)
+    -o-background-clip: text;         (Opera)
+}
+
+Isso é para que os estilos possam se adaptar melhor nos browsers.
+*/

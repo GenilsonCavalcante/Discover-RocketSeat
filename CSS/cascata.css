@@ -1,0 +1,24 @@
+/*A cascata (cascading)*/
+/*
+
+A escolha do browser de qual regra aplicar, caso haja muitas regras para o mesmo elemento.
+
+*Seu estilo é lido de cima para baixo.
+
+É levado em cosideração 3 fatores
+
+1. Origem do estilo
+2. Especificações
+3. Importância
+
+
+## Origem do estilos
+inline > tag style > tag link
+
+*/
+h1 {
+    color: red;
+}
+h1 {
+    color: blue;
+}/*Cascata sendo aplicada.*/

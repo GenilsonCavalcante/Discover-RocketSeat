@@ -1,0 +1,25 @@
+/*
+
+### A regra !important
+
+*Cuidado, evite o uso
+*Não é considerado uma boa prática
+*Quebra o fluxo natural da cascata
+
+*/
+
+#my-title {
+    color:black !important;/*Independentemente do valor das outras, o !important fará que exclusivamente o elemento que ele estiver aplicado será mais importante e aplicará o estilo.*/
+}
+
+.title {/*Essa é mais forte que os dois abaixo*/
+    color: aqua;
+}
+
+h1.title#my-title {/*Somando os valore de ID mais Classe, se torna mais forte que um ID sozinho.*/
+    color: gray;
+}
+
+* {
+    color: gold;
+}

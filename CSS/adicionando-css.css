@@ -1,0 +1,20 @@
+/*
+
+*Adicionando CSS
+
+**INLINE
+-Atributo "style"
+
+**Style
+-Tag html que irá conter o CSS
+
+**LINK
+-Arquivo CSS externo
+
+**@IMPORT
+-Arquivo CSS externo
+
+*/
+h1, strong {
+    color:teal;
+}
